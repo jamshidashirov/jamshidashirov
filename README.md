@@ -12,7 +12,7 @@ Hi, I'm Jamshid. I'm a cybersecurity practitioner and software engineer focused 
 
 - **[password-generator](https://github.com/jamshidashirov/password-generator):** A lightweight Python utility for generating cryptographically strong passwords.
 
--##  
+##
 
 <!--
 **jamshidashirov/jamshidashirov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
