@@ -1,3 +1,5 @@
+![Cybersecurity Skill Radar](./radar.svg)
+
 ![OSCP+ Path](https://img.shields.io/badge/Focus-OSCP%2B%20%26%20Pentesting-1f6feb?style=flat)
 ![Linux](https://img.shields.io/badge/Environment-Linux-238636?style=flat)
 
