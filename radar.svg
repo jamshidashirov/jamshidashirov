@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="100%">
+  <defs>
+    
+    <linearGradient id="sweepGrad" x1="100%" y1="0%" x2="0%" y2="45%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .key-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 6; }
+      .key-txt { fill: #e6edf3; font-size: 15px; font-weight: 700; text-anchor: middle; }
+      .ring { fill: none; stroke: #21262d; stroke-width: 1.2; }
+      .axis { stroke: #1b222c; stroke-width: 1; stroke-dasharray: 4 4; }
+      .pill-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 5; }
+      .pill-txt { fill: #e6edf3; font-size: 11.5px; font-weight: 600; }
+      .dot { fill: #58a6ff; filter: url(#glow); }
+
+      .sweep {
+        transform-origin: 420px 272px;
+        animation: rotateSweep 6s linear infinite;
+      }
+      @keyframes rotateSweep {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .blip {
+        opacity: 0;
+        animation: pulseBlip 6s ease-out infinite;
+        animation-fill-mode: both;
+      }
+      .b1  { animation-delay: 0.17s; }
+      .b2  { animation-delay: 0.50s; }
+      .b3  { animation-delay: 0.80s; }
+      .b4  { animation-delay: 1.37s; }
+      .b5  { animation-delay: 1.67s; }
+      .b6  { animation-delay: 1.92s; }
+      .b7  { animation-delay: 2.53s; }
+      .b8  { animation-delay: 2.80s; }
+      .b9  { animation-delay: 3.42s; }
+      .b10 { animation-delay: 3.75s; }
+      .b11 { animation-delay: 4.03s; }
+      .b12 { animation-delay: 4.33s; }
+      .b13 { animation-delay: 4.63s; }
+      .b14 { animation-delay: 5.08s; }
+      .b15 { animation-delay: 5.20s; }
+      .b16 { animation-delay: 5.80s; }
+
+      @keyframes pulseBlip {
+        0%   { opacity: 0; }
+        3%   { opacity: 1; }
+        22%  { opacity: 0.9; }
+        70%  { opacity: 0.18; }
+        90%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  
+  <rect width="840" height="460" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+
+  
+  <text x="32" y="32" class="mono" fill="#8b949e" font-size="13">// $ recon jamshidashirov</text>
+  <circle cx="742" cy="27" r="4" fill="#58a6ff" filter="url(#glow)" />
+  <text x="754" y="32" class="mono" fill="#c9d1d9" font-size="13">found 16</text>
+
+  
+  <g transform="translate(157, 48)" class="mono">
+    <rect x="0" y="0" width="32" height="34" class="key-bg" /><text x="16" y="22" class="key-txt">j</text>
+    <rect x="38" y="0" width="32" height="34" class="key-bg" /><text x="54" y="22" class="key-txt">a</text>
+    <rect x="76" y="0" width="32" height="34" class="key-bg" /><text x="92" y="22" class="key-txt">m</text>
+    <rect x="114" y="0" width="32" height="34" class="key-bg" /><text x="130" y="22" class="key-txt">s</text>
+    <rect x="152" y="0" width="32" height="34" class="key-bg" /><text x="168" y="22" class="key-txt">h</text>
+    <rect x="190" y="0" width="32" height="34" class="key-bg" /><text x="206" y="22" class="key-txt">i</text>
+    <rect x="228" y="0" width="32" height="34" class="key-bg" /><text x="244" y="22" class="key-txt">d</text>
+    <rect x="266" y="0" width="32" height="34" class="key-bg" /><text x="282" y="22" class="key-txt">a</text>
+    <rect x="304" y="0" width="32" height="34" class="key-bg" /><text x="320" y="22" class="key-txt">s</text>
+    <rect x="342" y="0" width="32" height="34" class="key-bg" /><text x="358" y="22" class="key-txt">h</text>
+    <rect x="380" y="0" width="32" height="34" class="key-bg" /><text x="396" y="22" class="key-txt">i</text>
+    <rect x="418" y="0" width="32" height="34" class="key-bg" /><text x="434" y="22" class="key-txt">r</text>
+    <rect x="456" y="0" width="32" height="34" class="key-bg" /><text x="472" y="22" class="key-txt">o</text>
+    <rect x="494" y="0" width="32" height="34" class="key-bg" /><text x="510" y="22" class="key-txt">v</text>
+  </g>
+
+  
+  <rect x="30" y="102" width="780" height="332" rx="14" fill="#11161d" stroke="#21262d" stroke-width="1" />
+  <text x="48" y="128" class="mono" fill="#8b949e" font-size="12">scanning profile...</text>
+  <text x="708" y="128" class="mono" fill="#58a6ff" font-size="12">active scan</text>
+
+  
+  <circle cx="420" cy="272" r="45" class="ring" />
+  <circle cx="420" cy="272" r="85" class="ring" />
+  <circle cx="420" cy="272" r="125" class="ring" />
+  <circle cx="420" cy="272" r="155" class="ring" />
+  <line x1="255" y1="272" x2="585" y2="272" class="axis" />
+  <line x1="420" y1="112" x2="420" y2="432" class="axis" />
+
+  
+  <g class="sweep">
+    <path d="M 420 272 L 420 117 A 155 155 0 0 0 286 194 Z" fill="url(#sweepGrad)" />
+    <line x1="420" y1="272" x2="420" y2="117" stroke="#58a6ff" stroke-width="2" stroke-opacity="0.95" />
+  </g>
+
+  
+  <circle cx="420" cy="272" r="3.5" fill="#58a6ff" />
+
+  
+  <g class="mono">
+    
+    <g class="blip b1">
+      <circle cx="443" cy="139" r="4.5" class="dot" />
+      <rect x="453" y="127" width="62" height="22" class="pill-bg" />
+      <text x="462" y="142" class="pill-txt">OSCP+</text>
+    </g>
+
+    
+    <g class="blip b2">
+      <circle cx="461" cy="201" r="4.5" class="dot" />
+      <rect x="471" y="189" width="124" height="22" class="pill-bg" />
+      <text x="480" y="204" class="pill-txt">Active Directory</text>
+    </g>
+
+    
+    <g class="blip b3">
+      <circle cx="524" cy="178" r="4.5" class="dot" />
+      <rect x="534" y="166" width="88" height="22" class="pill-bg" />
+      <text x="543" y="181" class="pill-txt">Pentesting</text>
+    </g>
+
+    
+    <g class="blip b4">
+      <circle cx="566" cy="251" r="4.5" class="dot" />
+      <rect x="576" y="239" width="52" height="22" class="pill-bg" />
+      <text x="585" y="254" class="pill-txt">Nmap</text>
+    </g>
+
+    
+    <g class="blip b5">
+      <circle cx="494" cy="285" r="4.5" class="dot" />
+      <rect x="504" y="273" width="52" height="22" class="pill-bg" />
+      <text x="513" y="288" class="pill-txt">Bash</text>
+    </g>
+
+    
+    <g class="blip b6">
+      <circle cx="545" cy="330" r="4.5" class="dot" />
+      <rect x="555" y="318" width="88" height="22" class="pill-bg" />
+      <text x="564" y="333" class="pill-txt">Burp Suite</text>
+    </g>
+
+    
+    <g class="blip b7">
+      <circle cx="482" cy="388" r="4.5" class="dot" />
+      <rect x="492" y="376" width="84" height="22" class="pill-bg" />
+      <text x="501" y="391" class="pill-txt">Wireshark</text>
+    </g>
+
+    
+    <g class="blip b8">
+      <circle cx="436" cy="345" r="4.5" class="dot" />
+      <rect x="446" y="333" width="102" height="22" class="pill-bg" />
+      <text x="455" y="348" class="pill-txt">OWASP Top 10</text>
+    </g>
+
+    
+    <g class="blip b9">
+      <circle cx="363" cy="394" r="4.5" class="dot" />
+      <rect x="281" y="382" width="72" height="22" class="pill-bg" />
+      <text x="291" y="397" class="pill-txt">PrivEsc</text>
+    </g>
+
+    
+    <g class="blip b10">
+      <circle cx="369" cy="323" r="4.5" class="dot" />
+      <rect x="295" y="311" width="64" height="22" class="pill-bg" />
+      <text x="305" y="326" class="pill-txt">Docker</text>
+    </g>
+
+    
+    <g class="blip b11">
+      <circle cx="295" cy="339" r="4.5" class="dot" />
+      <rect x="191" y="327" width="94" height="22" class="pill-bg" />
+      <text x="201" y="342" class="pill-txt">Networking</text>
+    </g>
+
+    
+    <g class="blip b12">
+      <circle cx="333" cy="287" r="4.5" class="dot" />
+      <rect x="231" y="275" width="92" height="22" class="pill-bg" />
+      <text x="241" y="290" class="pill-txt">Metasploit</text>
+    </g>
+
+    
+    <g class="blip b13">
+      <circle cx="273" cy="251" r="4.5" class="dot" />
+      <rect x="177" y="239" width="86" height="22" class="pill-bg" />
+      <text x="187" y="254" class="pill-txt">Parrot OS</text>
+    </g>
+
+    
+    <g class="blip b14">
+      <circle cx="361" cy="231" r="4.5" class="dot" />
+      <rect x="285" y="219" width="66" height="22" class="pill-bg" />
+      <text x="295" y="234" class="pill-txt">Python</text>
+    </g>
+
+    
+    <g class="blip b15">
+      <circle cx="317" cy="180" r="4.5" class="dot" />
+      <rect x="249" y="168" width="58" height="22" class="pill-bg" />
+      <text x="259" y="183" class="pill-txt">Linux</text>
+    </g>
+
+    
+    <g class="blip b16">
+      <circle cx="392" cy="140" r="4.5" class="dot" />
+      <rect x="276" y="128" width="106" height="22" class="pill-bg" />
+      <text x="286" y="143" class="pill-txt">Cryptography</text>
+    </g>
+  </g>
+</svg>
