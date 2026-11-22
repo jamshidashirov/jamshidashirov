@@ -10,7 +10,7 @@ Hi, I'm Jamshid. I'm a cybersecurity practitioner and software engineer focused 
 - **Offensive Security & OSCP+** — Network security, pentesting, and Linux hardening.c
 - **Practical Tooling** — Automating workflows with Python and CLI utilities.
 
-### What I've built
+### What I've 
 
 
 - **[password-generator](https://github.com/jamshidashirov/password-generator):** A lightweight Python utility for generating cryptographically strong passwords.
