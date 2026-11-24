@@ -5,7 +5,7 @@
 
 Hi, I'm Jamshid. I'm a cybersecurity practitioner and software engineer focused on building secure systems and practical automation tools.
 
-### Focusi
+### Focus
 
 - **Offensive Security & OSCP+** — Network security, pentesting, and Linux hardening.c
 - **Practical Tooling** — Automating workflows with Python and CLI utilities.
